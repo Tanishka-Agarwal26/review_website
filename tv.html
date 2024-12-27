@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+.container {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .left-column, .right-column {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .left-column {
+            background: #fff;
+            border-radius: 15px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+        }
+
+        .left-column:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .right-column .section {
+            margin-bottom: 20px;
+            background: #fff;
+            border-radius: 15px;
+            padding: 15px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+        }
+
+        .right-column .section:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+        
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body  style="background-color: bisque;">
+    <header>
+        <h1>Reviews</h1>
+        <nav>
+            <ul>
+                <span class="material-symbols-outlined">
+                    
+                    </span> 
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="movies.html">Movies</a></li>
+                    <li><a href="ws.html">Web Series</a></li>
+                    <li><a href="tv.html">TV Shows</a></li>
+                    <li><a href="binge.html">Binge Watch</a></li>
+                <li style="text-align: right;"><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+</span>
+    <div class="container">
+        <div class="left-column">
+            <div class="about-section">
+    
+    <article id="anu">
+        <h3><strong>Anupama</strong></h3>
+        
+        <img style="height: 100px; width: 75px;" src="anu.jpg" alt="anu">
+        <p>A very pure and intense motivation for the woman, children and every individual of the society.</p>
+    </article>
+</div>
+</div>
+  <div class="right-column">
+    <div class="section">
+    <article id="bb">
+        <h3><strong>Bigg Boss</strong></h3>
+        
+        <img style="height: 100px; width: 75px;" src="Bigg_Boss_Poster.jpg" alt="Bb">
+        <p>A reality show where it is all about the real personalities of the individual.</p>
+    </article>
+
+
+    <h2>Submit Your Movie Review</h2>
+    <form action="/submit_review" method="post">
+        <p>
+            <label>Your Name:<br>
+            <input type="text" name="name" required></label>
+        </p>
+        <p>
+            <label>TV Show:<br>
+            <input type="text" name="TV" required></label>
+        </p>
+        <p>
+            <label>Your Review:<br>
+            <textarea name="review" rows="4" cols="50" required></textarea></label>
+        </p>
+        <p>
+            <label>Rating (1 to 5):<br>
+            <select name="rating" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            </label>
+        </p>
+        <p>
+            <input type="submit" value="Submit Review">
+        </p>
+    </form>
+</div>
+  </div>
+</body>
+
+</html>
